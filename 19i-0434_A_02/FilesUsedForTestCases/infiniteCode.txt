@@ -1,0 +1,5 @@
+int Message()
+{
+	print "This is a recursive function.";
+	Message();
+}

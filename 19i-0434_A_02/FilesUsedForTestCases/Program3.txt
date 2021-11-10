@@ -1,0 +1,26 @@
+int GCD(int x, int y)
+{
+	if (x % y == 0)
+	{
+		return y;
+	}
+	else
+	{
+		return GCD(y, x % y);
+	}
+}
+int gcd(int x, int y)
+{
+	if(x > y)
+	{
+		return GCD(x,y);
+	}
+	else
+	{
+		return GCD(y,x);
+	}
+}
+void main()
+{
+	print gcd(66, 78);
+}

@@ -1,0 +1,14 @@
+void Message(int times)
+{
+	if (times > 0) // Base case
+	{
+		print "This is a recursive function.\n";
+		Message(times - 1);
+
+	}
+}
+void main()
+{
+	int a=2;
+	Message(a);
+}
